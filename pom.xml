@@ -32,7 +32,7 @@
 				<configuration>
 					<classifier>mule-application</classifier>
 					<cloudHubDeployment>
-                    <applicationName>my-mule-app</applicationName>
+                    <applicationName>pipelinetest</applicationName>
                     <username>jitenderjenkins</username>
                     <password>Changeit@93</password>
                     <environment>Sandbox</environment>
@@ -40,8 +40,8 @@
                     <workerType>MICRO</workerType>
                     <workers>1</workers>
                     <muleVersion>4.4.0</muleVersion>
-                    <objectStoreV2>true</objectStoreV2>
-                    <persistentQueues>false</persistentQueues>
+                    <!-- <objectStoreV2>true</objectStoreV2>
+                    <persistentQueues>false</persistentQueues> -->
                     <!-- <skip>false</skip> -->
                 </cloudHubDeployment>
 				</configuration>
