@@ -33,7 +33,7 @@
 				<configuration>
 					<classifier>mule-application</classifier>
 					<cloudHubDeployment>
-					<deploymentType>cloudhub2</deploymentType>
+					<!-- <deploymentType>cloudhub2</deploymentType> -->
                     <applicationName>pipelinetest</applicationName>
                     <username>jitenderjenkins</username>
                     <password>Changeit@93</password>
