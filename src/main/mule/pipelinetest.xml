@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="pipelinetestFlow" doc:id="db2da9c5-8aa4-4dc2-9fe6-2db087645dbf" >
 		<http:listener doc:name="Listener" doc:id="0b363b47-48d8-442c-ba21-d5070b4a4089" config-ref="HTTP_Listener_config" path="/test"/>
-		<set-payload value='#["hello bhai kya hall"]' doc:name="Set Payload" doc:id="807932d0-adfb-434d-a890-e8cc8c60baa4" />
+		<set-payload value='#["hello bhai kya hall, deployment done."]' doc:name="Set Payload" doc:id="807932d0-adfb-434d-a890-e8cc8c60baa4" />
 	</flow>
 </mule>
