@@ -41,9 +41,9 @@
                     <workerType>MICRO</workerType>
                     <workers>1</workers>
                     <muleVersion>4.9.0</muleVersion>
-                    <!-- <objectStoreV2>true</objectStoreV2>
-                    <persistentQueues>false</persistentQueues> -->
-                    <!-- <skip>false</skip> -->
+                    <objectStoreV2>true</objectStoreV2>
+                    <persistentQueues>false</persistentQueues>
+                    <skip>false</skip>
                 </cloudHubDeployment>
 				</configuration>
 			</plugin>
