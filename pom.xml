@@ -14,11 +14,11 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.9.0</app.runtime>
-		<mule.maven.plugin.version>3.8.0</mule.maven.plugin.version>
+		<mule.maven.plugin.version>4.3.0</mule.maven.plugin.version>
 	</properties>
 
 	<build>
-	<finalName>pipelinetest-1.0.0-SNAPSHOT</finalName>
+	
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -48,6 +48,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>pipelinetest-1.0.0-SNAPSHOT</finalName>
 	</build>
 
 	<dependencies>
