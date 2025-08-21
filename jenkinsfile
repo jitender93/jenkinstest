@@ -8,7 +8,7 @@ bat 'mvn clean install'
 } 
 stage('Deploy CloudHubs') { 
 environment { 
-ANYPOINT_CREDENTIALS = credentials(' anypointplatformcredentials ') 
+ANYPOINT_CREDENTIALS = credentials(' b26aeca9-8c1b-4722-910e-d571aa5dd4bb ') 
 } 
 steps { 
 echo 'Deploying mule project due to the latest code commit…' 
